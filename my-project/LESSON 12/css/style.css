@@ -1,0 +1,262 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.navbar .logo{
+    color: #0D234A;
+    font-size: 22px;
+}
+nav .navlinks ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav .navlinks ul li{
+    padding:7px 10px;
+} 
+nav .navlinks ul li a{
+    text-decoration: none;
+    color: #0D234A;
+    font-size: 17px;
+    font-weight:800;
+}
+nav .navlinks li.btn{
+    border: 3px solid #0D234A;
+    margin-left: 20px;
+}
+
+.showcase .row{
+    height: 500px;
+    margin: 20px auto;
+}
+.row .text h2{
+    font-size: 42px;
+    color: #0D234A;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    margin: 25px 0px;
+}
+.row .text h3{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #0D234A;
+    font-weight:600 ;
+}
+.row .text .btn1{
+    padding: 8px 20px;
+    color: #000;
+    font-size: 20px;
+    border: 2px solid #0D234A;
+    margin-right:10px ;
+}
+.row .text .btn1{
+    padding: 8px 20px;
+    color: #000;
+    font-size: 20px;
+    border: 2px solid #0D234A;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+.row .text .btn1:hover{
+    background-color: #0D234A;
+    color: white;
+    transition: 0.3s;
+}
+
+.row .image{
+    width: 50%;
+    margin: 0px auto;
+}
+.row .image img{
+    width: 800px;
+    height: 500px;
+    margin:0px auto;
+}
+
+/* header end */
+
+/* main start */
+
+.list .part1 img{
+    width: 300px;
+    margin-left: -270px;
+}
+.list .part1 .text-transform{
+    transform:rotate(-90deg) ;
+    font-size: 16px;
+    color: #1F3257;
+    text-transform: uppercase;
+} 
+.block .list{
+    display: flex;
+}
+.block .row .col-3{
+height: 500px;
+}
+
+.part2 .blok1 h2{
+    font-size: 40px;
+    margin-bottom:12px ;
+}
+.part2 .blok1 p{
+    font-size: 18px;
+    width: 90%;
+    color: #1F3257;
+}
+.part2 .row h2{
+    font-size: 32px;
+    color: #1F3257;
+}
+.part2 .row p{
+    color: #1F3257;
+    font-size: 18px;
+}
+.part2 .row img{
+    width: 200px;
+    margin: 30px ;
+    margin-left: 0px;
+}
+
+/* Main end */
+
+/* Section Start */
+
+section {
+   margin: 65px 0px;
+   border-top: 3px solid #0D234A;
+}
+section .container .row{
+    margin-top: 65px;
+}
+.row .text-info{
+    color: #0D234A;
+    width: 65%;
+    margin: 0px auto;
+}
+.row .text-info h2{
+    font-size: 26px;
+    margin-bottom: 12px;
+}
+.row .text-info p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    width: 80%;
+}
+.row .text-info button{
+    padding: 5px 10px ;
+    margin: 25px 0px;
+    color: #0D234A;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 3px solid #0D234A;
+}
+
+.info-img{
+    width: 45%;
+    margin: 0px auto;
+}
+.info-img img{
+    width: 450px;
+    margin: 0px auto;
+}
+
+.row .text-info2{
+    color: #0D234A;
+    width: 50%;
+    margin: 0px auto;
+}
+.row .text-info2 h2{
+    font-size: 26px;
+    margin-bottom: 12px;
+}
+.row .text-info2 p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+}
+.row .text-info2 button{
+    padding: 5px 10px ;
+    margin: 25px 0px;
+    color: #0D234A;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 3px solid #0D234A;
+}
+
+.info-img2{
+    width: 45%;
+    margin: 0px auto;
+}
+.info-img2 img{
+    width: 450px;
+    margin: 0px auto;
+}
+
+
+.last{
+    background-color: #0D234A;
+}
+.last .row{
+    height: 300px;
+}
+.last .row .card{
+    width: 65%;
+    margin-left: 90px;
+}
+.last .row .card h2{
+    font-size: 42px;
+    color: white;
+}
+.last .row .card button{
+    padding: 6px 10px;
+    background-color: #F7EFEE;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: #0D234A;
+    font-weight: 600;
+    margin: 14px 0px;
+}
+.last .row .show-img{
+    width: 30%;
+    margin-right: -100px;
+}
+.last .row .show-img img{ 
+    width: 600px;
+}
+/* Section End */
+
+/* footer start */
+
+.footer .container .row .location p{
+   line-height:25px ;
+}
+.footer .container .row .enquiries p{
+    line-height:25px ;
+    margin-bottom: 10px;
+ }
+ .footer .container .row .enquiries{
+ margin-bottom: 10px;
+ }
+ .footer .container .row img{
+     margin-left: 300px;
+ }
+
+ footer .row{
+     height: 100px;
+     margin-top: 50px;
+ }
+ footer .row .copy{
+    font-size: 12px;
+    line-height: 30px;
+ }
+ footer .row .privacy{
+     font-size: 14px;
+     margin-left: 300px;
+     margin-bottom: 15x;
+ }
