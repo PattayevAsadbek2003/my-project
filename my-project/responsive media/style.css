@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+     background-image: url(./img/green.jfif);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.row{
+    width: 85%;
+    background: rgb(250, 250, 250);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:8% auto;
+    padding: 15px;
+
+}
+.card {
+    width:20%;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.card h2{
+    color: rgb(173, 216, 73);
+    font-weight: 600;
+}
+.card p{
+    font-size: 12px;
+    letter-spacing: .5px;
+    line-height: 18px;
+}
+.card img{
+    width: 100%;
+    height: 210px;
+}
+.card1 {
+    width:20%;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.card1 h2{
+    color: rgb(173, 216, 73);
+    font-weight: 600;
+}
+.card1 p{
+    font-size: 12px;
+    letter-spacing: .5px;
+    line-height: 18px;
+}
+.card1 img{
+    width: 100%;
+    height: 210px;
+}
+
+.heading{
+    display: none;
+}
+
+@media only screen and ( max-width:972px){
+    .row{
+        display: block;
+    } 
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .card .text{
+        width: 60%;
+    }
+    .card img{
+        width: 100%;
+    }
+    .card1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .card1 .text{
+        width: 60%;
+    }
+    .card1 img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:768px){
+ .row{
+     display: block;
+ }
+ .card{
+     display: block;
+     width:100%;
+ }
+ .card .text{
+    font-size: 22px;
+    width: 100%;
+ }
+ .card1{
+    display: block;
+    width: 100%;
+}
+.card1 .text{
+    font-size: 22px;
+    width: 100%;
+ }
+
+ .heading{
+     display: block;
+     text-align: center;
+     font-size: 28px;
+     color: red;
+     padding: 10px;
+ }
+}
