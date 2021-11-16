@@ -1077,23 +1077,23 @@ footer h3{
 }
 .information-bar .menu-bars .menu4{
     margin-top: 20px;
-    margin-left: -40;
 }
 .information-bar .menu-bars .menu4 i{
     padding: 18px;
     font-size: 18px;
-    margin-left: 0px;
+    margin-left: -20px;
 }
 .information-bar .menu-bars .menu4 h3{
     font-size: 22px;
     color: #22343D;
     margin-bottom: 13px;
-    margin-left: 0px;
+    margin-left: -20px;
     /* margin-right: 122px; */
 }
 .information-bar .menu-bars .menu4 p{
     font-size: 16px;
     color: #22343D;
+    margin-left: -20px;
     /* margin-right: 46px; */
 }
 
@@ -1686,7 +1686,7 @@ footer h3{
 .information-bar .menu-bars{
     width: 540px;
     height:960px;
-    margin-left: 130px;
+    margin-left: 150px;
     margin-top: 80px;
     display: flex;
     flex-direction: column;
@@ -1709,7 +1709,7 @@ footer h3{
     font-size: 38px;
     color: #22343D;
     margin-bottom: 13px;
-    /* margin-right: 122px; */
+    margin-right: 50px;
 }
 .information-bar .menu-bars .menu1 p{
     font-size: 22px;
@@ -1729,7 +1729,7 @@ footer h3{
     font-size: 38px;
     color: #22343D;
     margin-bottom: 13px;
-    /* margin-right: 122px; */
+    margin-right: 50px;
 }
 .information-bar .menu-bars .menu2 p{
     font-size: 22px;
@@ -1739,6 +1739,7 @@ footer h3{
 
 .information-bar .menu-bars .menu3{
     margin-right:0px;
+    margin-left: -40px;
 }
 .information-bar .menu-bars .menu3 i{
     padding: 22px;
@@ -1749,20 +1750,22 @@ footer h3{
     font-size: 38px;
     color: #22343D;
     margin-bottom: 13px;
-    /* margin-right: 122px; */
+    margin-right: 50px;
 }
 .information-bar .menu-bars .menu3 p{
     font-size: 22px;
     margin-bottom: 40px;
+   
 }
 
 .information-bar .menu-bars .menu4{
     margin-right:0px;
+    margin-left: -25px;
 }
 .information-bar .menu-bars .menu4 i{
     padding: 22px;
     font-size: 22px;
-    margin-left: 120px;
+    margin-left: 110px;
 }
 .information-bar .menu-bars .menu4 h3{
     font-size: 38px;
@@ -1778,6 +1781,7 @@ footer h3{
 .information-bar{
     background-image: linear-gradient( #EDEDED 95% ,  #fcefef52 5% );
     border-radius: 0 0 100% 100% / 0 0 50% 50%;
+    width: 576px;
 }
 
 
@@ -1867,6 +1871,8 @@ footer h3{
 } 
 .heading1 h4{
     text-align: center;
+    font-size: 14px;
+    width: 300px;
 }
 .main-info{
     width:576px;
