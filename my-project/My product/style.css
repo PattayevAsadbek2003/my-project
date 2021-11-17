@@ -7,16 +7,20 @@
 /* NAVBAR START */
 html{
     width: 1400px;
+    margin: 0px auto;
 }
 body{
    width: 1400px;
+   margin: 0px auto;
 }
 section{
     background: #E5E5E5;
     width: 1400px;
+    margin: 0px auto;
 }
 .container{
     width: 1400px;
+    margin: 0px auto;
 }
 
 .container .gridmenu{

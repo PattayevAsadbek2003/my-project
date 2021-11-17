@@ -1,9 +1,11 @@
 @media only screen and (max-width:1200px) {
     section{
       width: 1140px;
+      margin: 0px auto;
     }
     .container{
         width: 1140px;
+        margin: 0px auto;
     }
     .container .gridmenu{
         width: 1000px;
